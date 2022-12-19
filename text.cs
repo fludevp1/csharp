@@ -53,7 +53,12 @@ namespace WinFormsApp4
                     MessageBox.Show("data has been inseretd");
                 }
 
+           private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
 
+        }   
             }
         }
         }
